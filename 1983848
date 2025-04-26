@@ -1,0 +1,47 @@
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "Y脚本OHIO挂机脚本";
+	Text = "正在检查白名单";
+	Icon = "rbxthumb://type=Asset&id=17519696976&w=150&h=150"})
+Duration = 15
+repeat
+task.wait(10)
+until game.Players.LocalPlayer.Character~=nil;
+local a=tostring(game.Players.LocalPlayer.Character);
+if a=="China_robloxl3"then
+_G.whitelisted=true
+elseif a=="qijiu653"then
+_G.whitelisted=true
+elseif a=="qwe434875"then
+_G.whitelisted=true
+elseif a=="dalian590"then
+_G.whitelisted=true
+elseif a=="yizhi_pico"then
+_G.whitelisted=true
+elseif a=="ehhhhhs53"then
+_G.whitelisted=true
+elseif a=="ehhhhhs51"then
+_G.whitelisted=true
+elseif a=="aaawww12309"then
+_G.whitelisted=true
+elseif a=="xxsxxs6666u"then
+_G.whitelisted=true
+elseif a=="zjkmiao"then
+_G.whitelisted=true
+elseif a=="yizhipicoxiaohao"then
+_G.whitelisted=true
+elseif a=="用户名"then
+_G.whitelisted=true
+elseif a=="用户名"then
+_G.whitelisted=true
+elseif a=="yizhi_picoxiaohao"then
+_G.whitelisted=true
+elseif a=="ehhhhhs52"then
+end
+if _G.whitelisted==true then
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/lyynb666ezlol/lyytjkrrjbrbrvtbt/refs/heads/main/1983845"))()
+    
+else
+
+game.Players.LocalPlayer:Kick(a.."去找lyy买白名单")
+end
